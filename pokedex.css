@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+#pokedex{
+    min-height: 50vh;
+    /* background-color: rgb(168, 30, 30); */
+    color: rgb(31, 25, 25);
+    display: flex;
+    padding: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.infoContainer{
+    background-color: white;
+    border-top-left-radius:40px;
+    border-top-right-radius:40px;
+    min-height: 100px;
+    margin-top: -20px;
+    display: flex;
+    justify-content: center;
+
+}
+#pokemonImg{
+    height: 200px;
+    margin-top: -160px;
+
+}
+.aboutPokemon{
+    display: flex;
+    justify-content: center;
+    text-align:center;
+    color: black;
+    justify-content: space-evenly;
+    
+}
+
+.aboutPokemon h2{
+    color: rgb(255, 72, 0);
+}
+
+.Info{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.barChart{
+    height: 400px;
+    width: 400px;
+}
+#pokemonName{
+    font-size: 25px;
+    text-align: center;
+    background-color: #73c1c1;
+}
+.pokemonimages img{
+    height: 200px;
+}
+.ContainerAll{
+display: flex;
+justify-content: center;
+margin-bottom: 60px;
+}
+.container{
+    width: 150px;
+}
+.baseStatsContainer{
+    width: 150px;
+}
+.moveContainer{
+    width: 150px;
+}
