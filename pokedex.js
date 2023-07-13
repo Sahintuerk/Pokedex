@@ -19,6 +19,7 @@ async function loadPokemon() {
 function renderPokemonInfo(i) {
   let images = document.getElementById('pokedex');
   images.innerHTML += `<div class="pokemonCard" id="pokemonName">
+  ${currentPokemon['id']}
   ${currentPokemon['name']}
 
 
@@ -26,6 +27,7 @@ function renderPokemonInfo(i) {
 <img src="${currentPokemon['sprites']['other']['official-artwork']['front_default']}">
 </div>
 </div>
+
 <div class="ContainerAll">
 
 <div class="container">
@@ -83,4 +85,13 @@ function chart(i) {
   });
 
 }
+}
+
+function loadDate(){
+
+
+
+
+
+
 }
